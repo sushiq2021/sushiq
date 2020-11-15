@@ -1,0 +1,101 @@
+/* Color Palette
+  Orange: #EE5425
+  Green: #36A73D
+  white
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'comic sans';
+  margin: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+}
+
+/* Header & Nav */
+nav, footer{
+  background: #EE5425;
+  color: white;  
+}
+.logo-img{
+  display: block;
+}
+
+/* BANNER1 */
+.banner1{
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+  url(../images/platter.jpg) no-repeat;
+  background-size: cover;
+}
+/* MENU */
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 22px;
+  background-color: #2196F3;
+  padding: 60px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/* BANNER2 */
+.banner2{
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+
+/* ADDRESS */
+address{
+
+}
+/* OPEN */
+.open{
+  background: #36A73D;
+}
+h2 ~ p{
+  margin: 0;
+
+}
+
+/* FOOTER */
+footer{
+  background:#EE5425;
+  font: white;
+}
+
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+}
