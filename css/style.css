@@ -4,18 +4,6 @@
   white
 */
 
-
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
-}
-
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -41,26 +29,20 @@ body {
   height: 32rem;
 }
 
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+/* Header & Nav */
+nav, footer{
+  background: #36A73D;
+  color: white;  
 }
 
+/* BANNER1 */
+.banner1{
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+  url(../images/platter.jpg) no-repeat;
+  background-size: cover;
+}
 
-/* Featurettes
-------------------------- */
+/* Featurettes */
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -71,6 +53,12 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+}
+
+/* FOOTER */
+footer{
+  background:#EE5425;
+  font: white;
 }
 
 
