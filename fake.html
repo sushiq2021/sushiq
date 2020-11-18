@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/fake.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar orange">
+  <div class="w3-right-align w3-large">
+    <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+  </div>
+</nav>
+
+<!-- Logo -->
+<section class="w3-bar w3-center">
+    <img src="/images/Bannerlogo.png"  style="width:50%">
+</section>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides w3-opacity" src="/images/platter1.png"
+  style="width:100%">
+  <img class="mySlides w3-opacity" src="/images/curry.png"
+  style="width:100%">
+  <img class="mySlides w3-opacity" src="/images/teriyaki.png"
+  style="width:100%">
+</section>
+
+<!-- Description -->
+<section class="w3-container w3-center w3-content" style="max-width:700px">
+  <h2 class="w3-wide">Fill in your day the right way!</h2>
+  <p class="w3-justify">Breakfast, lunch or dinner, we offer a healthy and fast option to fuel you through your day. 
+    All of our products are  made daily in our onsite kitchen using the freshest ingredients and 
+    where possible sourced locally. </p>
+    <br>
+</section>
+
+<!-- Menu -->
+<section class="w3-row-padding w3-center">
+  <article class="w3-third">
+    <img src="/images/M1.png" alt="Sushi" style="width:40%">
+    <h3>Sushi</h3>
+  </article>
+  <article class="w3-third">
+    <img src="/images/M2.png" alt="Meal" style="width:40%">
+    <h3>Meal</h3>
+  </article>
+  <article class="w3-third">
+    <img src="/images/M3.png" alt="Party Pack" style="width:40%">
+    <h3>Party Pack</h3>
+  </article>
+</section>
+
+<!-- Slide Show -->
+<section>
+    <img class=" w3-opacity" src="/images/menu1.png"
+    style="width:100%">
+</section>
+
+<!-- Map -->
+<div class="w3-container w3-light-grey" style="padding:70px 50px">
+    <div class="w3-row-padding">
+        <div class="w3-col m6">
+            <img class="w3-image w3-round-large" src="/images/map.png" alt="Map" width="700" height="400">
+          </div>
+      <div class="w3-col m5">
+        <h3 class="lead-heading"><b>Address:</b></h3>
+        <p class="lead">610 Cameron Road,</p>
+        <p class="lead">Tauranga South, Tauranga</p>
+        <p class="lead"><b>Phone:</b> 07 579 5759</p>
+        <button class="orange"><i class="fa fa-phone"> </i> Order Now </button>
+      </div>
+      
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-24 w3-center w3-xlarge green">
+  <h3 class="w3-center w3-justify">OPEN</h3>
+  <h3 class="w3-center w3-justify">MON ~ FRI: 10:30AM ~ 5:00PM</h3>
+  <h3 class="w3-center w3-justify">SAT: 10:30AM ~ 4:00PM</h3>
+  <h3 class="w3-center w3-justify">SUN: CLOSE</h3>
+</footer>
+<footer class="w3-bar w3-center orange">
+    <p>&copy;SushiQ 2020 | Design by JB</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
