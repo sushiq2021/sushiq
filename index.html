@@ -4,25 +4,40 @@
 <meta name="description" content="Fresh and Healthy food">
 <meta name="keywords" content="SushiQ, sushiq, Sushi, sushi, Tauranga, tauranga, vegun, vegetarian, New Zealand, new zealand">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/style.css">
 <link rel="icon" type="image/icon" href="/images/logo.png">
     <title>SushiQ - Fresh & Healthy</title>
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+    </style>
 <body>
-
-<!-- Navigation -->
-<nav class="w3-bar orange">
-  <div class="w3-right-align w3-large">
-    <a href="#contact" class="w3-button w3-bar-item fa fa-phone"> Contact</a>
+<!-- Navbar -->
+<div class="w3-top w3-green w3-xxlarge">
+  <div class="w3-bar w3-left-align">
+   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-none" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+   <a href="#" class="w3-bar-item w3-button w3-hover-opacity"><img src="/images/logo.png" style="width:40px" class="w3-margin-right"></i>SushiQ</a>
+   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity">Team</a>
+   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity">Work</a>
+   <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity">Price</a>
+   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity">Contact</a>
+     </div>
+   </div>
   </div>
-</nav>
+ 
+   <!-- Navbar on small screens -->
+   <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-green">
+     <a href="#team" class="w3-bar-item w3-button w3-hover-opacity">Team</a>
+     <a href="#work" class="w3-bar-item w3-button w3-hover-opacity">Work</a>
+     <a href="#pricing" class="w3-bar-item w3-button w3-hover-opacity">Price</a>
+     <a href="#contact" class="w3-bar-item w3-button w3-hover-opacity">Contact</a>
+   </div>
+ </div>
+ 
 
 <!-- Logo -->
-<section class="w3-bar w3-center">
+<section class="w3-bar w3-center w3-padding-top-48">
     <img src="/images/Bannerlogo.png"  style="width:50%">
 </section>
 
@@ -35,8 +50,8 @@
 
 <!-- Description -->
 <section class="w3-container w3-center w3-content" style="max-width:700px">
-  <h2 class="w3-wide">Fill in your day the right way!</h2>
-  <p class="w3-justify">Breakfast, lunch or dinner, we offer a healthy and fast option to fuel you through your day. 
+  <h2 class="w3-wide w3-jumbo">Fill in your day the right way!</h2>
+  <p class="w3-justify w3-xxlarge">Breakfast, lunch or dinner, we offer a healthy and fast option to fuel you through your day. 
     All of our products are  made daily in our onsite kitchen using the freshest ingredients and 
     where possible sourced locally. </p>
     <br>
@@ -69,15 +84,13 @@
     <div class="w3-row-padding">
         <div class="w3-col m6">
           <a class="w3-image w3-round-large" href="https://www.google.com/maps/dir//sushiq/@-37.6994054,176.1562428,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6d6ddbcbba189697:0xefe78e9c2c22c10e!2m2!1d176.1580829!2d-37.700267?hl=en">
-          <img class="w3-image w3-round-large" src="/images/map.png" alt="Map" width="700" height="400"></a>
+          <img class="w3-image w3-round-large" src="/images/map.png" alt="Map" width="700" height="500"></a>
          </div>
       <div class="w3-col m5">
-        <img class="lead" src="/images/logo.png" height="120">
-        <h3 class="lead-heading"><b>Address:</b></h3>
-        <p class="lead">610 Cameron Road,</p>
-        <p class="lead">Tauranga South, Tauranga</p>
-        <p class="lead"><b>Phone:</b> 07 579 5759</p>
-        <button class="orange"><i class="fa fa-phone"> </i> Order Now </button>
+        <img class="lead " src="/images/logo.png" height="120">
+        <h3 class="lead-heading w3-xxlarge"><b>Address:</b></h3>
+        <p class="lead w3-xxlarge">610 Cameron Road,<br>Tauranga South, Tauranga</p>
+        <p class="lead w3-xxlarge"><b>Phone:</b> 07 579 5759</p>
       </div>
       
     </div>
@@ -85,16 +98,26 @@
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-24 w3-center w3-xlarge green">
-  <h3 class="w3-center w3-justify">Opening Hours</h3>
-  <h3 class="w3-center w3-justify">MON ~ FRI: 10:30am ~ 5:00pm</h3>
-  <h3 class="w3-center w3-justify">SAT: 10:30am ~ 4:00pm</h3>
-  <h3 class="w3-center w3-justify">SUN: CLOSE</h3>
+  <h3 class="w3-center w3-justify w3-xxlarge">Opening Hours</h3>
+  <h3 class="w3-center w3-justify w3-xxlarge">MON ~ FRI: 10:30am ~ 5:00pm</h3>
+  <h3 class="w3-center w3-justify w3-xxlarge">SAT: 10:30am ~ 4:00pm</h3>
+  <h3 class="w3-center w3-justify w3-xxlarge">SUN: CLOSE</h3>
 </footer>
 <footer class="w3-bar w3-center orange">
     <p>&copy;SushiQ 2020 | Design by JB</p>
 </footer>
 
 <script>
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
 // Automatic Slideshow - change image every 3 seconds
 var myIndex = 0;
 carousel();
