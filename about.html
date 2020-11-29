@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="description" content="Fresh and Healthy food">
+<meta name="keywords" content="SushiQ, sushiq, Sushi, sushi, Tauranga, tauranga, vegun, vegetarian, New Zealand, new zealand">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/icon" href="/images/logo.png">
+    <title>SushiQ - Fresh & Healthy</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+    </style>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-left-align w3-green w3-xxlarge">
+   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+   <a href="index.html" class="w3-bar-item w3-button w3-hover-opacity"><img src="/images/logo.png" style="width:40px" class="w3-margin-right"></i>SushiQ</a>
+   <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity">About</a>
+   <a href="menu.html" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity">Menu</a>
+   <a href="catering.html" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity">Catering</a>
+   <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity">Gellery</a>
+     </div>
+   </div>
+ 
+   <!-- Navbar on small screens -->
+   <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-green">
+    <a href="about.html" class="w3-bar-item w3-button w3-hover-opacity w3-xxlarge">About</a>
+     <a href="menu.html" class="w3-bar-item w3-button w3-hover-opacity w3-xxlarge">Menu</a>
+     <a href="catering.html" class="w3-bar-item w3-button w3-hover-opacity w3-xxlarge">Catering</a>
+     <a href="gallery.html" class="w3-bar-item w3-button w3-hover-opacity w3-xxlarge">Gellery</a>
+   </div>
+ </div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-16 w3-centered green">
+  <div class="lead w3-col m7 w3-right-align">
+    <h3 class="lead w3-xxlarge">
+      <b>Opening Hours</b></h3>
+    <h3 class="lead w3-xxlarge">
+      MON ~ FRI: 10:30am ~ 5:00pm
+      <br>SAT: 10:30am ~ 4:00pm 
+      <br>SUN: CLOSE</h3>
+  </div>
+</footer>
+<footer class="w3-bar w3-center orange">
+    <p class="w3-xlarge">&copy;<b>SushiQ 2020 | Design by JB</b></p>
+</footer>
+
+<script>
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
