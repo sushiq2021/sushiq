@@ -10,7 +10,9 @@
 .green{
 background: #36A73D;
 }
-
+a{
+  text-decoration: none;
+}
 .mySlides {
   display: none;
   width:100%;
@@ -22,7 +24,7 @@ background: #36A73D;
   padding-top: 10%;
 }
 
-.padding-left100{
+.padding-left-100{
   padding-left: 100px;
 }
 .margin{
