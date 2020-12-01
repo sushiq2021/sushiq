@@ -79,7 +79,7 @@
 
 <!-- Map -->
 <div class="w3-container w3-light-grey" style="padding:70px 30px">
-    <div class="w3-row-padding">
+    <div class="">
         <div class="w3-col m6">
           <a class="w3-image w3-round-large" href="https://www.google.com/maps/dir//sushiq/@-37.6994054,176.1562428,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6d6ddbcbba189697:0xefe78e9c2c22c10e!2m2!1d176.1580829!2d-37.700267?hl=en">
           <img class="w3-image w3-round-large" src="/images/map.png" alt="Map" width="100%"></a>
@@ -93,8 +93,8 @@
   </div>
 
 <!-- Footer -->
-<footer class="w3-padding-small w3-centered green">   
-  <div class="w3-margin-top w3-container w3-center w3-content">
+<footer class="w3-centered green">   
+  <div class="w3-container w3-center w3-content">
     <h3 class="lead w3-xxlarge">
       <b>Opening Hours</b></h3>
     <p class="lead w3-xlarge w3-container minus-margin-top-footer">
@@ -110,33 +110,9 @@
   </ul>
 </footer>
 
-<script>
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 3000);
-}
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
