@@ -30,3 +30,7 @@ background: #36A73D;
 .minus-margin-top{
  margin-top: -30px;
 }
+
+.hr-dash{
+ border-top:  2px dotted black;
+}
