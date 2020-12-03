@@ -1,9 +1,4 @@
-/* Color Palette
-  Orange: #EE5425
-  Green: #36A73D
-  white
-*/
-
+/* All  */
 .orange{
   background: #EE5425;
 }
@@ -13,6 +8,8 @@ background: #36A73D;
 a{
   text-decoration: none;
 }
+
+/* Index*/
 .mySlides {
   display: none;
   width:100%;
@@ -20,31 +17,31 @@ a{
   max-height:600px;
 }
 
+/* Padding*/
 .logo-padding{
   padding-top: 10%;
 }
-
 .padding-left-100{
   padding-left: 100px;
 }
-
+/* Margin */
 .margin{
   margin-right: 30px;
 }
 .margin-left{
   margin-left: 40px;
 }
-
 .minus-margin-top{
  margin-top: -30px;
 }
+.minus-margin-top-footer{
+  margin-top: -10px;
+}
 
+/* Catering */ 
 .hr-dash{
  border-top: 2px dotted black;
 }
-.minus-margin-top-footer{
-  margin-top: -10px;
- }
 
  /* Scroll button */
  #myBtn {
