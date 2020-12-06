@@ -1,6 +1,6 @@
 h2.ml8 {
-    font-weight: 900;
-    font-size: 4.5em;
+    font-weight: 850;
+    font-size: 4.1em;
     color: #fff;
     width: 3em;
     height: 1em;
@@ -41,17 +41,17 @@ h2.ml8 {
   }
 
   .ml8 .circle-dark {
-    width: 2.2em;
-    height: 2.2em;
+    width: 1.9em;
+    height: 1.9em;
     background-color: #EE5425;
     border-radius: 3em;
     z-index: 0;
   }
   
   .ml8 .circle-dark-dashed {
-    border-radius: 2.4em;
+    border-radius: 2.1em;
     background-color: transparent;
     border: 2px dashed  #EE5425;
-    width: 2.3em;
-    height: 2.3em;
+    width: 2em;
+    height: 2em;
   }
