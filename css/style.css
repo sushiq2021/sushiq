@@ -16,6 +16,10 @@ a{
   min-height:350px;
   max-height:600px;
 }
+/* Nav bar*/
+.position{
+  z-index: 2;
+}
 
 /* Padding*/
 .logo-padding{
