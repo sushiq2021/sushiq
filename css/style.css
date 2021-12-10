@@ -1,15 +1,37 @@
-/* All  */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:wght@300;400;500&display=swap');
+@import "/css/reset.css";
+@import "/css/hi.css";
+
+/* General  */
 .orange{
   background: #EE5425;
 }
 .green{
-background: #36A73D;
+  background: #36A73D;
+}
+
+.font {
+  font-family: 'Amatic SC', cursive;
+}
+.font__open {
+  font-family: 'Open Sans', sans-serif;
+}
+.font__bold {
+  font-weight: 700;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 a{
   text-decoration: none;
 }
 
 /* Index*/
+
+.image__size {
+  width:100%; 
+  height: 350px;
+}
 .mySlides {
   display: none;
   width:100%;
