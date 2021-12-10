@@ -4,6 +4,7 @@
 <meta name="description" content="Fresh and Healthy food">
 <meta name="keywords" content="SushiQ, sushiq, Sushi, sushi, Tauranga, tauranga, vegun, vegetarian, New Zealand, new zealand">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.json" />
 <link rel="icon" type="image/icon" href="/images/logo.png">
     <title>SushiQ - Fresh & Healthy</title>
     <link rel="stylesheet" href="/css/style.css">
@@ -13,6 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://www.foodbooking.com/embedder/js/ewm2.js" defer async ></script>
+    <script type="module">
+      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+      const el = document.createElement('pwa-update');
+      document.body.appendChild(el);
+   </script>
+   
     <style>
       body, h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
       p {font-family: "Open Sans", sans-serif}
@@ -46,7 +53,7 @@
 <!-- Banner1 -->
 <section class="w3-display-container w3-animate-opacity">
     <div>
-    <img class="w3-opacity-min" src="/images/platter1.jpg" style="width:100%">
+    <img class="w3-opacity-min" src="/images/catering/platter1.jpg" style="width:100%">
     </div>
 
 
@@ -107,7 +114,7 @@
 <!-- Footer Bottom -->
 <footer class="w3-bar w3-center orange">
   <ul class="w3-ul">
-    <li class="w3-large w3-small">&copy;<b>SushiQ 2020. </b><a href = "mailto: ganett33@gmail.com"> Designed by JB</a></li>
+    <li class="w3-large w3-small">&copy;<b>SushiQ <script>document.write(new Date().getFullYear());</script>. </b> <a href = "mailto: ganett33@gmail.com"> Designed by JB</a></li>
   </ul>
 </footer>
 

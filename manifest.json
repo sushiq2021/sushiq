@@ -1,0 +1,85 @@
+{
+  "name": "SushiQ - Fresh & Healthy",
+  "short_name": "SushiQ",
+  "display": "standalone",
+  "description": " At SushiQ, we pride ourselves on serving the freshest and SushiQ kitchen combines techniques and ingredients from Japanese, Korean, and New Zealand cuisine for a unique take on sushi designed for Kiwi palates./n With plenty of plant-based and gluten-free options available as well, everyone is welcome at SushiQ",
+  "orientation": "any",
+  "start_url": "https://competent-joliot-941af3.netlify.app/",
+  "language": "English",
+  "theme_color": "#36a73d",
+  "background_color": "#b2b2b8",
+  "icons": [
+    {
+      "src": "images/icons/icon_x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/icons/icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "images/icons/icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/icons/icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/icons/icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icons/icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "images/icons/icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/icons/icon.png",
+      "type": "image/png",
+      "sizes": "1666x1666"
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "images/screenshots/main_Web.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshots/main_Mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshots/menu_Web.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshots/menu_Mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshots/order_Web.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshots/order_Mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ]
+}

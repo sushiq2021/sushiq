@@ -4,6 +4,7 @@
 <meta name="description" content="Fresh and Healthy food">
 <meta name="keywords" content="SushiQ, sushiq, Sushi, sushi, Tauranga, tauranga, vegun, vegetarian, New Zealand, new zealand">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.json" />
 <link rel="icon" type="image/icon" href="/images/logo.png">
     <title>SushiQ - Fresh & Healthy</title>
     <link rel="stylesheet" href="/css/style.css">
@@ -18,10 +19,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <style>
-      body, h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
-      p {font-family: "Open Sans", sans-serif}
-    </style>
+<script type="module">
+  import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+  const el = document.createElement('pwa-update');
+  document.body.appendChild(el);
+</script>
+
+<style>
+  body, h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+  p {font-family: "Open Sans", sans-serif}
+</style>
 
 <body>
 <!-- Navbar -->
@@ -51,7 +58,7 @@
 <!-- Image -->
 <section class="w3-container w3-center w3-content w3-padding-64" style="max-width:900px">  
   <div class="w3-padding-top-48">
-    <img src="/images/Oweners.jpg" alt="Francis&Olivia" style="width:80%">
+    <img src="/images/about/Oweners.jpg" alt="Francis&Olivia" style="width:80%">
   </div>
 
   <!-- Hi -->
@@ -115,7 +122,7 @@
 <!-- Footer Bottom -->
 <footer class="w3-bar w3-center orange">
   <ul class="w3-ul">
-    <li class="w3-large w3-small">&copy;<b>SushiQ 2020. </b><a href = "mailto: ganett33@gmail.com"> Designed by JB</a></li>
+    <li class="w3-large w3-small">&copy;<b>SushiQ <script>document.write(new Date().getFullYear());</script>. </b> <a href = "mailto: ganett33@gmail.com"> Designed by JB</a></li>
   </ul>
 </footer>
 
