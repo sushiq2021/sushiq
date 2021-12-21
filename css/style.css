@@ -26,11 +26,16 @@ a{
   text-decoration: none;
 }
 
+.font__holiday {
+  font-size: 28px;
+  font-weight: 600;
+}
+
 /* Index*/
 
 .image__size {
   width:100%; 
-  height: 350px;
+  height: 380px;
 }
 .mySlides {
   display: none;
@@ -58,6 +63,10 @@ a{
 }
 .minus-margin-top-footer{
   margin-top: -10px;
+}
+/* About */
+.content__font {
+  font-size: 23px;
 }
 
 /* Catering */ 
