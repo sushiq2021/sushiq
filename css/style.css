@@ -27,7 +27,7 @@ a{
 }
 
 .font__holiday {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -64,6 +64,7 @@ a{
 .minus-margin-top-footer{
   margin-top: -10px;
 }
+
 /* About */
 .content__font {
   font-size: 23px;
